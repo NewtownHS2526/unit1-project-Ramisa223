@@ -1,14 +1,29 @@
-+div {
-    background-image: radial-gradient(circle, #ccc 1px);
-    border-style: solid;
-    border-width: 2px;
-    border-color: black;
-  }
+body {
+  background: linear-gradient(135deg, #E0F4FF 0%, #FFF8E7 100%);
+  min-height: 100vh;
+  margin: 0;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+div {
+  background-color: rgba(255, 255, 255, 0.9);
+  border-style: solid;
+  border-width: 2px;
+  border-color: #d4a373;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 10px 0;
+}
   
-  img {
-    max-width: 80%;
-  }
+img {
+  max-width: 80%;
+  border-radius: 8px;
+}
   
-  #header {
-    background-color: #d4a373;
-  }
+#header {
+  background-color: #d4a373;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
