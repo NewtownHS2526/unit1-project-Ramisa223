@@ -1,5 +1,5 @@
-div {
-    background-color: #e9edc9;
++div {
+    background-image: radial-gradient(circle, #ccc 1px);
     border-style: solid;
     border-width: 2px;
     border-color: black;
